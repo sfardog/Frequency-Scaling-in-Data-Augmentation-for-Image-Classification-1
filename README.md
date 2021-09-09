@@ -11,3 +11,10 @@ Modern deep neural networks(DNNs) are used in artificial intelligence (AI) appli
 
 ## Pattern Scaling Process(PSP)
 ![Screenshot from 2021-09-09 10-22-07](https://user-images.githubusercontent.com/77310264/132606617-f821fcd8-5e4a-49c1-99a5-6f7e6e5f0c0d.png)
+
+# Contents
+This directory includes a reference implementation in NumPy of the augmentation method used in AugMix in augment_and_mix.py. The full AugMix method also adds a Jensen-Shanon Divergence consistency loss to enforce consistent predictions between two different augmentations of the input image and the clean image itself.
+
+We also include PyTorch re-implementations of AugMix on both CIFAR-10/100 and ImageNet in cifar.py and imagenet.py respectively, which both support training and evaluation on CIFAR-10/100-C and ImageNet-C.
+
+This directory includes the inference phase 
