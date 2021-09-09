@@ -25,3 +25,4 @@ pip install -r requirements.txt
 ```
 python main.py --augment [AUGMENT]
 ```
+The pretrained model is available in 
