@@ -17,4 +17,6 @@ This directory includes the inference phase in main.py and our model in models f
 
 # Setup
 1. Install PyTorch and other required python libraries with:
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
