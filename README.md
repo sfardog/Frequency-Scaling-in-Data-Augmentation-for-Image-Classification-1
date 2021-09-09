@@ -15,4 +15,6 @@ Modern deep neural networks(DNNs) are used in artificial intelligence (AI) appli
 # Contents
 This directory includes the inference phase in main.py and our model in models for CIFAR-10. We implement our method on Pytorch1.8, Python3, and Ubuntu 18.04. 
 
-
+# Setup
+1. Install PyTorch and other required python libraries with:
+`pip install -r requirements.txt`
